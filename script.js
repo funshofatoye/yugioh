@@ -2,7 +2,7 @@ function wordChange(intNum) {
 
     let arr = [];
 
-    for (let i = 1; arr.length <= intNum; i++) {
+    for (let i = 1; arr.length < intNum; i++) {
        
         // arr.push(i);
         if((i%2 === 0) && (i%3 === 0) && (i%5 === 0)){
