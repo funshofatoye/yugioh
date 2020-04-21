@@ -17,6 +17,7 @@ function wordChange(intNum) {
         // console.log(i);
     }
     console.log(arr);
+    return arr;
     // return arr
 }
 
