@@ -4,7 +4,7 @@ function wordChange(intNum) {
 
     for (let i = 1; i <= intNum; i++) {
        
-        arr.push(i);
+        // arr.push(i);
         if(i%2 === 0){
             arr.push("yu");
         } else if(i%3 === 0){
