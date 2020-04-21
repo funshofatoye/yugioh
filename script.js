@@ -22,9 +22,8 @@ function wordChange(intNum) {
         } else {
             arr.push(i);
         }
-        // console.log(i);
     }
-    console.log(arr);
+    // console.log(arr);
     return arr;
 }
 
