@@ -2,10 +2,18 @@ function wordChange(intNum) {
 
     let arr = [];
 
-    for (let i = 1; i <= intNum; i++) {
+    for (let i = 1; arr.length <= intNum; i++) {
        
         // arr.push(i);
-        if(i%2 === 0){
+        if((i%2 === 0) && (i%3 === 0) && (i%5 === 0)){
+            arr.push("yu-gi-oh");
+        } else if((i%2 === 0) && (i%3 === 0)){
+            arr.push("yu-gi");
+        } else if((i%3 === 0) && (i%5 === 0)){
+            arr.push("gi-oh");
+        } else if((i%2 === 0) && (i%5 === 0)){
+            arr.push("yu-oh");
+        } else if(i%2 === 0){
             arr.push("yu");
         } else if(i%3 === 0){
             arr.push("gi");
@@ -18,7 +26,6 @@ function wordChange(intNum) {
     }
     console.log(arr);
     return arr;
-    // return arr
 }
 
 wordChange(100);
